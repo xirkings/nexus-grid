@@ -74,7 +74,7 @@
       </div>
 
       <div class="text-[10px] text-slate-500 italic border-t border-slate-800/60 pt-3 flex justify-between">
-        <span>Source: Electricity Maps Engine</span>
+        <span>Source: Electricity Maps Engine [NG Zone]</span>
         <span id="last-updated">Refreshed: --:--</span>
       </div>
     </div>
@@ -84,29 +84,43 @@
     <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 md:p-8 shadow-2xl space-y-6">
       
       <div>
-        <span class="text-blue-400 text-xs font-bold uppercase tracking-wider">Project Brief & Operations</span>
-        <h2 class="text-2xl font-bold text-white mt-1">Executive Methodology Overview</h2>
+        <span class="text-blue-400 text-xs font-bold uppercase tracking-wider">Project Brief & Geographic Context</span>
+        <h2 class="text-2xl font-bold text-white mt-1">Nigeria National Grid Analysis</h2>
         <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-          This project serves as an operational proof-of-concept demonstrating how real-time cloud data pipelines can monitor critical public utility infrastructure. It is designed to model systemic data management workflows required in modern logistics, asset management, and geographic research frameworks.
+          This dashboard tracks the real-time electricity telemetry of <strong>Nigeria (NG Zone)</strong>. In a rapidly developing economy, stabilizing public utilities and managing energy logistics requires real-time overview parameters. This artifact functions as an administrative project framework detailing structural power generation and environmental footprints across the country.
         </p>
       </div>
 
       <hr class="border-slate-800">
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="space-y-4">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wide text-emerald-400">🇳🇬 Local Grid Realities & Systemic Impacts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-400 leading-relaxed">
+          <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
+            <strong class="text-slate-200 block mb-1">Thermal Gas Dominance</strong>
+            Nigeria’s baseline power grid depends heavily on natural gas-fired thermal power stations (such as Egbin, Afam, and various NIPP plants). This creates a high, continuous carbon footprint, meaning the grid's average carbon intensity remains consistently elevated when gas turbines supply the primary bulk load.
+          </div>
+          <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
+            <strong class="text-slate-200 block mb-1">Seasonal Hydro Variation</strong>
+            Clean renewable input flows from major hydroelectric plants (like Kainji, Jebba, and Shiroro dams). The generation balance shifts radically based on seasonal cycles—wet seasons boost hydro capacity, lowering overall carbon intensity, while dry seasons stress baseline thermal output.
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
         <div>
-          <h3 class="text-white text-sm font-bold uppercase tracking-wide text-amber-400">📊 Data Metrics Decoded</h3>
+          <h3 class="text-white text-sm font-bold uppercase tracking-wide text-amber-400">📊 The Infrastructure Metrics</h3>
           <ul class="text-xs text-slate-400 mt-2 space-y-3 list-disc list-inside leading-relaxed">
-            <li><strong class="text-slate-200">Carbon Intensity:</strong> Measured in <code class="text-slate-300 bg-slate-950 px-1 py-0.5 rounded">gCO₂eq/kWh</code>. It reflects the weight of greenhouse gas emitted to produce a single kilowatt-hour of electricity. Lower scores mean cleaner local operations.</li>
-            <li><strong class="text-slate-200">The Power Mix Matrix:</strong> Compares high-emission fossil generation (natural gas combustion assets) against renewable generation (hydroelectric run-of-river and reservoir assets).</li>
+            <li><strong class="text-slate-200">Carbon Intensity:</strong> Calculated via global lifecycles in <code class="text-slate-300 bg-slate-950 px-1 py-0.5 rounded">gCO₂eq/kWh</code>. Tracking this value reveals how directly fuel supply chain variations affect national environmental targets.</li>
+            <li><strong class="text-slate-200">Systemic Grid Vulnerability:</strong> Real-time mapping of gas vs hydro outputs allows administrators to predict potential fuel constraint bottlenecks or operational load sheds across distribution networks.</li>
           </ul>
         </div>
 
         <div>
           <h3 class="text-white text-sm font-bold uppercase tracking-wide text-sky-400">⚙️ Pipeline Architecture</h3>
           <ul class="text-xs text-slate-400 mt-2 space-y-3 list-disc list-inside leading-relaxed">
-            <li><strong class="text-slate-200">Asynchronous Queries:</strong> Uses JavaScript promises and browser fetch APIs to query REST endpoints every 5 minutes without disrupting UI processes.</li>
-            <li><strong class="text-slate-200">Data Normalization:</strong> Raw multi-variant metrics from API playbooks are programmatically aggregated and cross-calculated to maintain true proportional balances totaling exactly 100%.</li>
+            <li><strong class="text-slate-200">Asynchronous Telemetry:</strong> Uses clean, non-blocking JavaScript ES6 Fetch protocols to map data matrices dynamically every 5 minutes without disrupting administrative site interfaces.</li>
+            <li><strong class="text-slate-200">Proportional Scaling:</strong> Modifies raw multi-variant API response tokens into clean, normalized visual values that maintain strict mathematical precision, adding up to 100%.</li>
           </ul>
         </div>
       </div>
@@ -114,9 +128,9 @@
       <hr class="border-slate-800">
 
       <div class="bg-slate-950 border border-slate-850 p-4 rounded-lg">
-        <h4 class="text-white text-xs font-bold uppercase text-emerald-400 tracking-wider">Portfolio Alignment Blueprint</h4>
+        <h4 class="text-white text-xs font-bold uppercase text-blue-400 tracking-wider">Portfolio & Professional CV Assignment</h4>
         <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-          By documenting these workflows, this artifact displays core professional capacities in <strong>Data Integration</strong>, <strong>Technical Communication</strong>, and <strong>Infrastructure Reporting</strong>. This framework directly applies to managing administrative asset schedules, reporting ESG sustainability compliance, or supporting technical field surveys.
+          By combining infrastructure data tracking with explicit geographic context, this project serves as a strong artifact for <strong>Project Management</strong>, <strong>Logistics</strong>, <strong>Assistant Surveying</strong>, and <strong>Corporate Analytics</strong> roles. It proves your capacity to interpret public facility networks, design active data tracking pipelines, and present operational updates clearly to organizational stakeholders.
         </p>
       </div>
 
@@ -128,7 +142,6 @@
   </footer>
 
   <script>
-    // Paste your sandbox key here
     const API_TOKEN = "9vwGQgdMd2XPuFCK9Dcu"; 
     const ZONE_ID = "NG";
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NexusGrid // Live Tracking & Methodology</title>
+  <title>NexusGrid // Infrastructure Telemetry & Operational Analytics</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
@@ -15,8 +15,8 @@
   <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50 p-4">
     <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
       <div>
-        <span class="text-emerald-400 text-[10px] font-bold tracking-widest uppercase">● Telemetry Pipeline</span>
-        <h1 class="text-xl font-bold text-white">NEXUS-GRID // Portfolio Analytics</h1>
+        <span class="text-emerald-400 text-[10px] font-bold tracking-widest uppercase">● Operational Data Stream [NG Zone]</span>
+        <h1 class="text-xl font-bold text-white">NEXUS-GRID // Infrastructure Analytics</h1>
       </div>
       
       <div class="flex bg-slate-950 p-1 rounded-lg border border-slate-800 self-stretch sm:self-auto">
@@ -74,7 +74,7 @@
       </div>
 
       <div class="text-[10px] text-slate-500 italic border-t border-slate-800/60 pt-3 flex justify-between">
-        <span>Source: Electricity Maps Engine [NG Zone]</span>
+        <span>Framework Alignment: NERC / TCN Operational Monitoring Standards</span>
         <span id="last-updated">Refreshed: --:--</span>
       </div>
     </div>
@@ -84,10 +84,10 @@
     <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 md:p-8 shadow-2xl space-y-6">
       
       <div>
-        <span class="text-blue-400 text-xs font-bold uppercase tracking-wider">Project Brief & Geographic Context</span>
+        <span class="text-blue-400 text-xs font-bold uppercase tracking-wider">Operational Framework & Institutional Alignment</span>
         <h2 class="text-2xl font-bold text-white mt-1">Nigeria National Grid Analysis</h2>
         <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-          This dashboard tracks the real-time electricity telemetry of <strong>Nigeria (NG Zone)</strong>. In a rapidly developing economy, stabilizing public utilities and managing energy logistics requires real-time overview parameters. This artifact functions as an administrative project framework detailing structural power generation and environmental footprints across the country.
+          NexusGrid is an operational telemetry dashboard designed to support infrastructure administrators and energy logistics teams in monitoring Nigeria's national grid performance in real time. By capturing carbon intensity and generation fuel mix data at 5-minute intervals via the Electricity Maps API, the platform provides continuous visibility into systemic grid behaviour — enabling proactive identification of fuel constraint bottlenecks, load shed risk windows, and seasonal generation shifts between thermal and hydroelectric sources. Built for administrative deployment in utility oversight, regulatory compliance monitoring, and national energy reporting contexts.
         </p>
       </div>
 
@@ -95,43 +95,32 @@
 
       <div class="space-y-4">
         <h3 class="text-white text-sm font-bold uppercase tracking-wide text-emerald-400">🇳🇬 Local Grid Realities & Systemic Impacts</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-400 leading-relaxed">
-          <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
-            <strong class="text-slate-200 block mb-1">Thermal Gas Dominance</strong>
-            Nigeria’s baseline power grid depends heavily on natural gas-fired thermal power stations (such as Egbin, Afam, and various NIPP plants). This creates a high, continuous carbon footprint, meaning the grid's average carbon intensity remains consistently elevated when gas turbines supply the primary bulk load.
-          </div>
-          <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
-            <strong class="text-slate-200 block mb-1">Seasonal Hydro Variation</strong>
-            Clean renewable input flows from major hydroelectric plants (like Kainji, Jebba, and Shiroro dams). The generation balance shifts radically based on seasonal cycles—wet seasons boost hydro capacity, lowering overall carbon intensity, while dry seasons stress baseline thermal output.
-          </div>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-        <div>
-          <h3 class="text-white text-sm font-bold uppercase tracking-wide text-amber-400">📊 The Infrastructure Metrics</h3>
-          <ul class="text-xs text-slate-400 mt-2 space-y-3 list-disc list-inside leading-relaxed">
-            <li><strong class="text-slate-200">Carbon Intensity:</strong> Calculated via global lifecycles in <code class="text-slate-300 bg-slate-950 px-1 py-0.5 rounded">gCO₂eq/kWh</code>. Tracking this value reveals how directly fuel supply chain variations affect national environmental targets.</li>
-            <li><strong class="text-slate-200">Systemic Grid Vulnerability:</strong> Real-time mapping of gas vs hydro outputs allows administrators to predict potential fuel constraint bottlenecks or operational load sheds across distribution networks.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 class="text-white text-sm font-bold uppercase tracking-wide text-sky-400">⚙️ Pipeline Architecture</h3>
-          <ul class="text-xs text-slate-400 mt-2 space-y-3 list-disc list-inside leading-relaxed">
-            <li><strong class="text-slate-200">Asynchronous Telemetry:</strong> Uses clean, non-blocking JavaScript ES6 Fetch protocols to map data matrices dynamically every 5 minutes without disrupting administrative site interfaces.</li>
-            <li><strong class="text-slate-200">Proportional Scaling:</strong> Modifies raw multi-variant API response tokens into clean, normalized visual values that maintain strict mathematical precision, adding up to 100%.</li>
-          </ul>
-        </div>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Nigeria's generation infrastructure operates under structural tension between thermal baseline dependency and seasonal renewable variability. Gas-fired thermal stations — including Egbin, Afam, and NIPP-affiliated plants — carry the primary bulk load, sustaining consistently elevated carbon intensity figures that directly affect Nigeria's Nationally Determined Contributions (NDC) compliance reporting obligations. 
+        </p>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Against this, hydroelectric capacity from Kainji, Jebba, and Shiroro introduces significant seasonal volatility: wet-season generation surpluses reduce grid carbon intensity, while dry-season deficits place critical stress on thermal reserves. NexusGrid surfaces these dynamics in real time, giving infrastructure coordinators the situational awareness needed to anticipate operational risk before it becomes a reportable incident under **NERC (Nigerian Electricity Regulatory Commission)** grids.
+        </p>
       </div>
 
       <hr class="border-slate-800">
 
-      <div class="bg-slate-950 border border-slate-850 p-4 rounded-lg">
-        <h4 class="text-white text-xs font-bold uppercase text-blue-400 tracking-wider">Portfolio & Professional CV Assignment</h4>
-        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-          By combining infrastructure data tracking with explicit geographic context, this project serves as a strong artifact for <strong>Project Management</strong>, <strong>Logistics</strong>, <strong>Assistant Surveying</strong>, and <strong>Corporate Analytics</strong> roles. It proves your capacity to interpret public facility networks, design active data tracking pipelines, and present operational updates clearly to organizational stakeholders.
-        </p>
+      <div class="space-y-4">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wide text-sky-400">💼 Professional Alignment Profiles</h3>
+        
+        <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
+          <span class="text-[10px] font-bold text-amber-400 tracking-wider uppercase block mb-1">Target Application // Project & Asset Management</span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            This dashboard demonstrates end-to-end project delivery capability: requirements scoping, API integration architecture, data normalisation pipeline design, and stakeholder-facing dashboard production. The project mirrors the operational reporting cycle of a corporate infrastructure PM — translating raw multi-source data into clean, decision-ready outputs under a continuous monitoring framework. For organisations managing distributed utility assets or multi-site logistics operations, NexusGrid represents the analytical mindset and technical execution standard I bring to project environments.
+          </p>
+        </div>
+
+        <div class="bg-slate-950 p-4 rounded-lg border border-slate-850">
+          <span class="text-[10px] font-bold text-sky-400 tracking-wider uppercase block mb-1">Target Application // Assistant Surveyor & Geospatial Operations</span>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            NexusGrid demonstrates applied geospatial asset tracking in a national infrastructure context — mapping generation source distribution, quantifying environmental load by fuel type, and normalising real-time telemetry into structured spatial outputs. The methodology directly mirrors field asset monitoring workflows: systematic data capture, proportional normalisation, and visual reporting against a defined geographic zone. This project evidences my capacity to manage live data pipelines for infrastructure asset registries, utility mapping assignments, and field survey reporting environments across Nigeria.
+          </p>
+        </div>
       </div>
 
     </div>
@@ -145,7 +134,6 @@
     const API_TOKEN = "9vwGQgdMd2XPuFCK9Dcu"; 
     const ZONE_ID = "NG";
 
-    // Tab Interface Switcher
     function switchTab(target) {
       const dashPanel = document.getElementById('panel-dash');
       const docsPanel = document.getElementById('panel-docs');
@@ -156,20 +144,17 @@
         dashPanel.classList.remove('hidden');
         dashPanel.classList.add('grid');
         docsPanel.classList.add('hidden');
-        
         btnDash.className = "flex-1 sm:flex-none px-4 py-1.5 rounded text-xs font-bold transition bg-blue-600 text-white cursor-pointer";
         btnDocs.className = "flex-1 sm:flex-none px-4 py-1.5 rounded text-xs font-bold transition text-slate-400 hover:text-white cursor-pointer";
       } else {
         dashPanel.classList.remove('grid');
         dashPanel.classList.add('hidden');
         docsPanel.classList.remove('hidden');
-
         btnDash.className = "flex-1 sm:flex-none px-4 py-1.5 rounded text-xs font-bold transition text-slate-400 hover:text-white cursor-pointer";
         btnDocs.className = "flex-1 sm:flex-none px-4 py-1.5 rounded text-xs font-bold transition bg-blue-600 text-white cursor-pointer";
       }
     }
 
-    // Telemetry Pipeline Logic
     async function fetchLiveGridMetrics() {
       const mockData = {
         carbonIntensity: 412,
